@@ -1,0 +1,996 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.svg-circle {
+  position: fixed;
+  left: 27%;
+  top: 13%;
+  height: 400px;
+  width: 400px;
+  z-index: 1;
+
+  .svg-bg {
+    border-radius: 50%;
+  }
+
+  .svg-bg-1 {
+    background-color: #0E0D37 !important;
+  }
+
+  .svg-bg-2 {
+    background-color: #17253A !important;
+  }
+
+  .svg-bg-3 {
+    background-color: #164B9B !important;
+  }
+
+  .svg-bg-4 {
+    background-color: #04278B !important;
+  }
+
+  .svg-bg-5 {
+    background-color: #0A924B !important;
+  }
+
+  .svg-bg-6 {
+    background-color: #5C00A1 !important;
+  }
+
+  .svg-bg-7 {
+    background-color: #4A16C6 !important;
+  }
+
+}
+
+.container-1 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c1-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #0E0D37;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 30%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        #nh-c2-p1 {
+          position: absolute;
+          top: -40%;
+          left: -20%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -35%;
+          right: 4%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 20%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c1-rp {
+    // width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #141245;
+    // position: relative;
+
+    .nasa-fitness-app-img1 {
+      // position: absolute;
+      // bottom: 0%;
+      // left: 10%;
+      height: 60%;
+      position: relative;
+      margin-top: 70%;
+      margin-left: 40%;
+      height: 550px;
+      width: 320px;
+
+      img {
+        position: absolute;
+        top: 0;
+        height: 550px;
+        width: 320px;
+      }
+    }
+
+    .nasa-fitness-app-img2 {
+      // position: absolute;
+      // right: 10%;
+      height: 60%;
+      position: relative;
+      margin-top: -40%;
+      margin-left: 20%;
+      height: 550px;
+      width: 270px;
+
+      img {
+        position: absolute;
+        top: 0;
+        height: 550px;
+        width: 270px;
+      }
+    }
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+}
+
+// CONTAINER-2
+
+.container-2 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c2-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #17253A;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 33%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        #nh-c2-p1 {
+          position: absolute;
+          top: -75%;
+          left: -20%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+        h1 {
+          font-size: 2.2em;
+          color: white;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -75%;
+          right: -15%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 20%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c2-rp {
+    // width: 60%;
+    height: 100%;
+    position: relative;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    background-color: #0D121A;
+    // position: relative;
+
+    .img-1 {
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+      height: 430px;
+      width: 285px;
+    }
+
+    .img-2 {
+      position: absolute;
+      top: 15%;
+      right: 10%;
+      height: 550px;
+      width: 270px;
+    }
+
+    .img-3 {
+      position: absolute;
+      top: -17%;
+      right: 0;
+      height: 200px;
+      width: 280px;
+    }
+
+    .img-4 {
+      position: absolute;
+      bottom: -10%;
+      right: 0;
+      height: 200px;
+      width: 280px;
+    }
+
+    .img-5 {
+      position: absolute;
+      top: -10%;
+      left: 0;
+      height: 200px;
+      width: 350px;
+    }
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+// CONTAINER-3
+
+.container-3 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c3-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #164B9B;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 33%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        #nh-c2-p1 {
+          position: absolute;
+          top: -60%;
+          left: 20%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+        h1 {
+          font-size: 3em;
+          color: white;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -60%;
+          right: -15%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 20%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c3-rp {
+    // width: 60%;
+    height: 100%;
+    position: relative;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    background-color: #3ADBDA;
+    // position: relative;
+
+    .c3-rp-img-1 {
+      position: absolute;
+      bottom: 25%;
+      right: 0%;
+      height: 430px;
+      width: 245px;
+    }
+
+    .c3-rp-img-2 {
+      position: absolute;
+      bottom: -45%;
+      right: 30%;
+      height: 550px;
+      width: 270px;
+    }
+
+    .c3-rp-img-3 {
+      position: absolute;
+      top: -20%;
+      left: 20%;
+      height: 500px;
+      width: 280px;
+    }
+
+    .c3-rp-img-4 {
+      position: absolute;
+      bottom: -20%;
+      left: 20%;
+      height: 500px;
+      width: 280px;
+    }
+
+    .c3-rp-img-5 {
+      position: absolute;
+      top: -5%;
+      left: 50%;
+      height: 500px;
+      width: 280px;
+    }
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+// CONTAINER-4
+
+.container-4 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c4-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #04278B;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 33%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        #nh-c2-p1 {
+          position: absolute;
+          top: -60%;
+          left: -20%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+        h1 {
+          font-size: 3em;
+          color: white;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -60%;
+          right: -15%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 25%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 10%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c4-rp {
+    // width: 60%;
+    height: 100%;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    background-color: rgb(230, 227, 217);
+    // position: relative;
+
+    .c4-rp-img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+// CONTAINER-5
+
+.container-5 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c5-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #0A924B;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 33%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        #nh-c2-p1 {
+          position: absolute;
+          top: -60%;
+          left: -20%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+        h1 {
+          font-size: 3em;
+          color: white;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -60%;
+          right: -15%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .bottom-img {
+        position: absolute;
+        bottom: 40%;
+      }
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 20%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c5-rp {
+    // width: 60%;
+    height: 100%;
+    position: relative;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    background-color: #0FCE69;
+    // position: relative;
+
+    .c5-rp-img1 {
+      position: absolute;
+      bottom: -10%;
+      right: 20%;
+      height: 600px;
+      width: 300px;
+    }
+
+    .c5-rp-img2 {
+      position: absolute;
+      bottom: -15%;
+      right: 37%;
+      height: 600px;
+      width: 350px;
+    }
+
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+// CONTAINER-6
+
+.container-6 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c6-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #5C00A1;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 30%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        h1 {
+          font-size: 3em;
+          color: white;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -60%;
+          right: -5%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .bottom-img {
+        position: absolute;
+        bottom: 40%;
+      }
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 20%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c6-rp {
+    // width: 60%;
+    height: 100%;
+    position: relative;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    background-color: #CBCACD;
+    // position: relative;
+
+    .c6-rp-img1 {
+      position: absolute;
+      bottom: 10%;
+      left: 10%;
+      height: 650px;
+      width: 400px;
+    }
+
+    .c6-rp-img2 {
+      position: absolute;
+      bottom: 10%;
+      right: 20%;
+      height: 650px;
+      width: 400px;
+    }
+
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+// CONTAINER-7
+
+.container-7 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 60%;
+  overflow: hidden;
+
+  .c7-lp {
+    // width: 40%;
+    height: 100%;
+    background-color: #4A16C6;
+    position: relative;
+
+    .nasa-heading {
+      position: absolute;
+      top: 33%;
+      right: -5%;
+      z-index: 2;
+
+      .nasa-heading-c2 {
+        position: relative;
+
+        #nh-c2-p1 {
+          position: absolute;
+          top: -60%;
+          left: 0%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+        h1 {
+          font-size: 3em;
+          color: white;
+        }
+
+        #nh-c2-p2 {
+          position: absolute;
+          bottom: -60%;
+          right: 0%;
+          color: white;
+          font-size: 1.3em;
+        }
+
+      }
+    }
+
+    .c1-lp-bp {
+      margin-left: 40px;
+
+      .c1-lp-bottom-text {
+        position: absolute;
+        bottom: 20%;
+
+        #bt-h1 {
+          color: white;
+          font-size: 2.5em;
+          margin-bottom: 30px;
+        }
+
+        #bt-p {
+          color: white;
+          font-size: 1.3em;
+        }
+      }
+
+      .c1-lp-footer {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 1.3em;
+
+        p {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .c7-rp {
+    // width: 60%;
+    height: 100%;
+    position: relative;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    background-color: #1A005D;
+    // position: relative;
+
+    .c7-rp-img1 {
+      position: absolute;
+      top: 0%;
+      right: 10%;
+      height: 550px;
+      width: 350px;
+    }
+
+    .c7-rp-img2 {
+      position: absolute;
+      bottom: 0%;
+      left: 20%;
+      height: 550px;
+      width: 350px;
+    }
+
+  }
+
+  .mail-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #50A0D5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
