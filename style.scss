@@ -430,6 +430,7 @@
   .c3-rp {
     // width: 60%;
     height: 100%;
+    max-width: 100%;
     position: relative;
     // display: grid;
     // grid-template-columns: 50% 50%;
@@ -512,7 +513,7 @@
 
     .nasa-heading {
       position: absolute;
-      top: 33%;
+      top: 30%;
       right: -5%;
       z-index: 2;
 
@@ -628,7 +629,7 @@
     .nasa-heading {
       position: absolute;
       top: 33%;
-      right: -5%;
+      right: 2%;
       z-index: 2;
 
       .nasa-heading-c2 {
