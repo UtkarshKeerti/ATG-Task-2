@@ -18,7 +18,7 @@ function display_fun1() {
     .to("#Opaque_Ring", {
       strokeDasharray: "10 1000",
       ease: "power3.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.c6-rp img', {
     opacity: 0,
     duration: 1.3,
@@ -60,7 +60,7 @@ function display_fun2() {
     .to("#Opaque_Ring", {
       strokeDasharray: "35% 1000",
       ease: "power3.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.c7-rp-img1', {
     opacity: 0,
     duration: 1.3,
@@ -101,7 +101,7 @@ function display_fun3() {
     .to("#Opaque_Ring", {
       strokeDasharray: "70% 1000",
       ease: "power3.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.nasa-fitness-app-img2', {
     opacity: 0,
     duration: 1.3,
@@ -142,7 +142,7 @@ function display_fun4() {
     .to("#Opaque_Ring", {
       strokeDasharray: "100% 1000",
       ease: "power3.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.img-1', {
     opacity: 0,
     duration: 1.3,
@@ -198,7 +198,7 @@ function display_fun5() {
     .to("#Opaque_Ring", {
       strokeDasharray: "130% 1000",
       ease: "power3.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.c3-rp-img-1', {
     opacity: 0,
     duration: 1.3,
@@ -254,7 +254,7 @@ function display_fun6() {
     .to("#Opaque_Ring", {
       strokeDasharray: "165% 1000",
       ease: "power3.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.c4-rp-img', {
     opacity: 0,
     duration: 1.3,
@@ -290,7 +290,7 @@ function display_fun7() {
     .to("#Opaque_Ring", {
       strokeDasharray: "200% 1000",
       ease: "power4.out"
-    }, '-=1')
+    }, '-=0.7')
   gsap.from('.bottom-img', {
     opacity: 0,
     duration: 1.3,
