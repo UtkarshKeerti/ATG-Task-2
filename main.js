@@ -2,19 +2,19 @@
 
 var tl = gsap.timeline({
   defaults: {
-    duration: 0.7
+    duration: 0.5
   }
 });
 
 function display_fun1() {
   tl.from(".c1-lp-0", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-1", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -23,12 +23,12 @@ function display_fun1() {
     }, '-=0.7')
   gsap.from('.c6-rp img', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 700
   });
   gsap.from('.bottom-img', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 100
   });
   $(".container-6").removeClass("display-none");
@@ -51,12 +51,12 @@ function display_fun1() {
 function display_fun2() {
   tl.from(".c1-lp-1", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-2", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -65,7 +65,7 @@ function display_fun2() {
     }, '-=0.7')
   gsap.from('.c7-rp-img1', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -200
   });
   gsap.from('.c7-rp-img2', {
@@ -92,12 +92,12 @@ function display_fun2() {
 function display_fun3() {
   tl.from(".c1-lp-2", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-3", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -106,7 +106,7 @@ function display_fun3() {
     }, '-=0.7')
   gsap.from('.nasa-fitness-app-img2', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -200
   });
   gsap.from('.nasa-fitness-app-img1', {
@@ -133,12 +133,12 @@ function display_fun3() {
 function display_fun4() {
   tl.from(".c1-lp-3", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-4", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -147,7 +147,7 @@ function display_fun4() {
     }, '-=0.7')
   gsap.from('.img-1', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 200
   });
   gsap.from('.img-2', {
@@ -157,17 +157,17 @@ function display_fun4() {
   });
   gsap.from('.img-3', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -100
   });
   gsap.from('.img-4', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 100
   });
   gsap.from('.img-5', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -100
   });
   $(".container-2").removeClass("display-none");
@@ -189,12 +189,12 @@ function display_fun4() {
 function display_fun5() {
   tl.from(".c1-lp-4", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-5", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -203,7 +203,7 @@ function display_fun5() {
     }, '-=0.7')
   gsap.from('.c3-rp-img-1', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     x: 200
   });
   gsap.from('.c3-rp-img-2', {
@@ -213,17 +213,17 @@ function display_fun5() {
   });
   gsap.from('.c3-rp-img-3', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -300
   });
   gsap.from('.c3-rp-img-4', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 300
   });
   gsap.from('.c3-rp-img-5', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -300
   });
   $(".container-3").removeClass("display-none");
@@ -245,12 +245,12 @@ function display_fun5() {
 function display_fun6() {
   tl.from(".c1-lp-5", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-6", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -259,7 +259,7 @@ function display_fun6() {
     }, '-=0.7')
   gsap.from('.c4-rp-img', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 700
   });
   $(".container-4").removeClass("display-none");
@@ -281,12 +281,12 @@ function display_fun6() {
 function display_fun7() {
   tl.from(".c1-lp-6", {
     y: 50,
-    stagger: .4,
+    stagger: .2,
     opacity: 0
   })
   tl.from(".nh-c2-7", {
       y: 50,
-      stagger: .3,
+      stagger: .2,
       opacity: 0,
     }, "-=1.8")
     .to("#Opaque_Ring", {
@@ -295,17 +295,17 @@ function display_fun7() {
     }, '-=0.7')
   gsap.from('.bottom-img', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 100
   });
   gsap.from('.c5-rp-img1', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: -200
   });
   gsap.from('.c5-rp-img2', {
     opacity: 0,
-    duration: 1.3,
+    duration: 1,
     y: 200
   });
   $(".container-5").removeClass("display-none");
@@ -346,11 +346,11 @@ function display_fun7() {
 
 var tl0 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-1",
+    // id: "slide-1",
     trigger: '.largest-div',
     start: "center 105%",
     end: "center 80%",
-    markers: true,
+    // markers: true,
     onLeave: () => display_fun2(),
     onEnterBack: () => display_fun1()
   }
@@ -362,11 +362,11 @@ var tl0 = gsap.timeline({
 
 var tl1 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-2",
+    // id: "slide-2",
     trigger: '.largest-div',
     start: "center 85%",
     end: "center 70%",
-    markers: true,
+    // markers: true,
     toggleActions: "restart reset restart reset",
     onEnterBack: () => display_fun2(),
     onLeave: () => display_fun3()
@@ -375,11 +375,11 @@ var tl1 = gsap.timeline({
 
 var tl2 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-3",
+    // id: "slide-3",
     trigger: '.largest-div',
     start: "center 70%",
     end: "center 56%",
-    markers: true,
+    // markers: true,
     onEnterBack: () => display_fun3(),
     onLeave: () => display_fun4()
   }
@@ -387,11 +387,11 @@ var tl2 = gsap.timeline({
 
 var tl3 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-4",
+    // id: "slide-4",
     trigger: '.largest-div',
     start: "center 56%",
     end: "center 43%",
-    markers: true,
+    // markers: true,
     onEnterBack: () => display_fun4(),
     onLeave: () => display_fun5()
   }
@@ -399,11 +399,11 @@ var tl3 = gsap.timeline({
 
 var tl4 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-5",
+    // id: "slide-5",
     trigger: '.largest-div',
     start: "center 43%",
     end: "center 30%",
-    markers: true,
+    // markers: true,
     onEnterBack: () => display_fun5(),
     onLeave: () => display_fun6()
   }
@@ -411,11 +411,11 @@ var tl4 = gsap.timeline({
 
 var tl5 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-6",
+    // id: "slide-6",
     trigger: '.largest-div',
     start: "center 30%",
     end: "center 15%",
-    markers: true,
+    // markers: true,
     onEnterBack: () => display_fun6(),
     onLeave: () => display_fun7()
   }
@@ -423,11 +423,11 @@ var tl5 = gsap.timeline({
 
 var tl6 = gsap.timeline({
   scrollTrigger: {
-    id: "slide-7",
+    // id: "slide-7",
     trigger: '.largest-div',
     start: "center 15%",
     end: "center -2%",
-    markers: true,
+    // markers: true,
     onEnterBack: () => display_fun7(),
     onLeave: () => display_fun1()
   }
