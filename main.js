@@ -1,3 +1,5 @@
+// PC
+
 var tl = gsap.timeline({
   defaults: {
     duration: 0.7
@@ -322,25 +324,116 @@ function display_fun7() {
   $(".container-6").addClass("display-none");
 }
 
-window.addEventListener('scroll', () => {
-  var scrolled = window.pageYOffset;
-  if (scrolled === 0) {
-    display_fun1();
-  } else if (scrolled === 100) {
-    display_fun2();
-  } else if (scrolled === 200) {
-    display_fun3();
-  } else if (scrolled === 300) {
-    display_fun4();
-  } else if (scrolled === 400) {
-    display_fun5();
-  } else if (scrolled === 500) {
-    display_fun6();
-  } else if (scrolled === 600) {
-    display_fun7();
+// window.addEventListener('scroll', () => {
+//   var scrolled = window.pageYOffset;
+//   console.log(scrolled);
+//   if (scrolled === 0) {
+//     display_fun1();
+//   } else if (scrolled === 100) {
+//     display_fun2();
+//   } else if (scrolled === 200) {
+//     display_fun3();
+//   } else if (scrolled === 300) {
+//     display_fun4();
+//   } else if (scrolled === 400) {
+//     display_fun5();
+//   } else if (scrolled === 500) {
+//     display_fun6();
+//   } else if (scrolled === 600) {
+//     display_fun7();
+//   }
+// });
+
+var tl0 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-1",
+    trigger: '.largest-div',
+    start: "center 105%",
+    end: "center 80%",
+    markers: true,
+    onLeave: () => display_fun2(),
+    onEnterBack: () => display_fun1()
+  }
+});
+// tl0
+// .call(display_fun1, ["1"], '-=0.4');
+
+
+
+var tl1 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-2",
+    trigger: '.largest-div',
+    start: "center 85%",
+    end: "center 70%",
+    markers: true,
+    toggleActions: "restart reset restart reset",
+    onEnterBack: () => display_fun2(),
+    onLeave: () => display_fun3()
   }
 });
 
+var tl2 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-3",
+    trigger: '.largest-div',
+    start: "center 70%",
+    end: "center 56%",
+    markers: true,
+    onEnterBack: () => display_fun3(),
+    onLeave: () => display_fun4()
+  }
+});
+
+var tl3 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-4",
+    trigger: '.largest-div',
+    start: "center 56%",
+    end: "center 43%",
+    markers: true,
+    onEnterBack: () => display_fun4(),
+    onLeave: () => display_fun5()
+  }
+});
+
+var tl4 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-5",
+    trigger: '.largest-div',
+    start: "center 43%",
+    end: "center 30%",
+    markers: true,
+    onEnterBack: () => display_fun5(),
+    onLeave: () => display_fun6()
+  }
+});
+
+var tl5 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-6",
+    trigger: '.largest-div',
+    start: "center 30%",
+    end: "center 15%",
+    markers: true,
+    onEnterBack: () => display_fun6(),
+    onLeave: () => display_fun7()
+  }
+});
+
+var tl6 = gsap.timeline({
+  scrollTrigger: {
+    id: "slide-7",
+    trigger: '.largest-div',
+    start: "center 15%",
+    end: "center -2%",
+    markers: true,
+    onEnterBack: () => display_fun7(),
+    onLeave: () => display_fun1()
+  }
+});
+
+// MOBILE
 $('.owl-carousel').owlCarousel({
   loop: true,
   margin: 10,
